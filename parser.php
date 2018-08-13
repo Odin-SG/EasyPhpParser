@@ -5,9 +5,12 @@ class Parser {
     //private $requ = 'https://yandex.ru/search/?text='; для настоящих запросов. Для этого нужно прокси
     protected $requ = '123.htm';
     protected $posForNextSearch = 0;
-    function __construct($keyWord) {
+    protected $maxNote;
+    protected $currNote = 0;
+    function __construct($keyWord, $maxNote = 0) {
         //$this->requ = $this->requ.$keyWord; для настоящих запросов
         $this->html = file_get_contents($this->requ);
+        $this->maxNote = $maxNote;
     }
 
     function search($tag, $otherPartsTag){
@@ -15,6 +18,9 @@ class Parser {
         $reg = '/<div[^\<\>]class=["\']organic__url-text["\'].*?>/im';
         preg_match_all($reg, $this->html, $this->mathes);
         return $this->mathes;*/
+        if($this->maxNote <= $this->currNote && $this->maxNote != 0){
+            return null;
+        }
        $fullTag = '<'.$tag.' '.$otherPartsTag.'>';
        if($this->posForNextSearch > 0){
            //Если совпадений больше нет то конец
@@ -52,6 +58,7 @@ class Parser {
            }
        }
        $this->posForNextSearch = $pos + $length; //Сохраняем позицию для поиска следующего тэга
+        $this->currNote++;
        return substr($substr, 0, $length); //Возвращаем фрагмент от открывающего тэга до закрывающего
     }
 

@@ -16,10 +16,10 @@
 <?php
 require_once 'derivedParser.php';
 
-$parser = new DerivedParser($_POST['word']);
+$parser = new DerivedParser($_POST['word'], 0, 18);
 
 while($element = $parser->searchMorePage('div', 'class="organic__url-text"')){
-    //echo $element;
+    echo $element;
 }
 ?>
 </body>
