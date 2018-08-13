@@ -14,12 +14,12 @@
 </form>
 
 <?php
-require_once 'parser.php';
+require_once 'derivedParser.php';
 
-$parser = new Parser($_POST['word']);
+$parser = new DerivedParser($_POST['word']);
 
-while($element = $parser->search('div', 'class="organic__url-text"')){
-    echo $element;
+while($element = $parser->searchMorePage('div', 'class="organic__url-text"')){
+    //echo $element;
 }
 ?>
 </body>

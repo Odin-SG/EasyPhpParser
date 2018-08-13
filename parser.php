@@ -4,7 +4,7 @@ class Parser {
     protected $html;
     //private $requ = 'https://yandex.ru/search/?text='; для настоящих запросов. Для этого нужно прокси
     protected $requ = '123.htm';
-    public $posForNextSearch = 0;
+    protected $posForNextSearch = 0;
     function __construct($keyWord) {
         //$this->requ = $this->requ.$keyWord; для настоящих запросов
         $this->html = file_get_contents($this->requ);

@@ -2,17 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="20c934ff-64ca-499c-ac60-31f8fb0ae508" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/123-2.htm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/123-2_files/LHtSqLsb03F7LOMCgj94y_FfUp8.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/123-2_files/calibrate.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/123-2_files/jquery.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/123-2_files/kikhcb107KEIYqQLbJTMaHe7qb8.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/123-2_files/nearest.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/123-2_files/svg.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/123-2_files/watch.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/123-2_files/xU550TUyhLko4TxcEgq1Qpu01Ic.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/derivedParser.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/123-1.htm" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/123-2.htm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/123-2_files/LHtSqLsb03F7LOMCgj94y_FfUp8.js" beforeDir="false" afterPath="$PROJECT_DIR$/123-1_files/LHtSqLsb03F7LOMCgj94y_FfUp8.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/123-2_files/calibrate.js" beforeDir="false" afterPath="$PROJECT_DIR$/123-1_files/calibrate.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/123-2_files/jquery.js" beforeDir="false" afterPath="$PROJECT_DIR$/123-1_files/jquery.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/123-2_files/kikhcb107KEIYqQLbJTMaHe7qb8.js" beforeDir="false" afterPath="$PROJECT_DIR$/123-1_files/kikhcb107KEIYqQLbJTMaHe7qb8.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/123-2_files/nearest.js" beforeDir="false" afterPath="$PROJECT_DIR$/123-1_files/nearest.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/123-2_files/svg.svg" beforeDir="false" afterPath="$PROJECT_DIR$/123-1_files/svg.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/123-2_files/watch.js" beforeDir="false" afterPath="$PROJECT_DIR$/123-1_files/watch.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/123-2_files/xU550TUyhLko4TxcEgq1Qpu01Ic.js" beforeDir="false" afterPath="$PROJECT_DIR$/123-1_files/xU550TUyhLko4TxcEgq1Qpu01Ic.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/derivedParser.php" beforeDir="false" afterPath="$PROJECT_DIR$/derivedParser.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/parser.php" beforeDir="false" afterPath="$PROJECT_DIR$/parser.php" afterDir="false" />
     </list>
@@ -26,12 +27,13 @@
     <session id="1283211817">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="4" />
+          <entry key="project.closed" value="5" />
           <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.35" value="1" />
           <entry key="project.open.time.46" value="1" />
+          <entry key="project.open.time.7" value="1" />
           <entry key="project.open.time.8" value="1" />
-          <entry key="project.opened" value="4" />
+          <entry key="project.opened" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -46,23 +48,23 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="php" value="4377" />
+          <entry key="php" value="5197" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="PHP" value="4377" />
+          <entry key="PHP" value="5197" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="650">
-              <caret line="26" selection-start-line="26" selection-end-line="26" />
+            <state relative-caret-position="525">
+              <caret line="21" column="6" selection-start-line="21" selection-start-column="6" selection-end-line="21" selection-end-column="6" />
             </state>
           </provider>
         </entry>
@@ -70,17 +72,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/parser.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="655">
-              <caret line="74" column="1" selection-start-line="74" selection-start-column="1" selection-end-line="74" selection-end-column="1" />
+            <state relative-caret-position="650">
+              <caret line="26" column="44" selection-start-line="26" selection-start-column="44" selection-end-line="26" selection-end-column="44" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/derivedParser.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="3" column="36" lean-forward="true" selection-start-line="3" selection-start-column="36" selection-end-line="3" selection-end-column="36" />
+            <state relative-caret-position="594">
+              <caret line="25" column="44" selection-start-line="25" selection-start-column="44" selection-end-line="25" selection-end-column="44" />
             </state>
           </provider>
         </entry>
@@ -94,8 +96,8 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/index.php" />
-        <option value="$PROJECT_DIR$/derivedParser.php" />
         <option value="$PROJECT_DIR$/parser.php" />
+        <option value="$PROJECT_DIR$/derivedParser.php" />
       </list>
     </option>
   </component>
@@ -172,16 +174,17 @@
       <workItem from="1534045544156" duration="18068000" />
       <workItem from="1534147044883" duration="541000" />
       <workItem from="1534147746518" duration="2391000" />
+      <workItem from="1534150187144" duration="7060000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="23256000" />
+    <option name="totallyTimeSpent" value="30316000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1696" height="1026" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2591687" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26222494" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -209,24 +212,24 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/index.php">
+    <entry file="file://$PROJECT_DIR$/derivedParser.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="650">
-          <caret line="26" selection-start-line="26" selection-end-line="26" />
+        <state relative-caret-position="594">
+          <caret line="25" column="44" selection-start-line="25" selection-start-column="44" selection-end-line="25" selection-end-column="44" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/parser.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="655">
-          <caret line="74" column="1" selection-start-line="74" selection-start-column="1" selection-end-line="74" selection-end-column="1" />
+        <state relative-caret-position="650">
+          <caret line="26" column="44" selection-start-line="26" selection-start-column="44" selection-end-line="26" selection-end-column="44" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/derivedParser.php">
+    <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="3" column="36" lean-forward="true" selection-start-line="3" selection-start-column="36" selection-end-line="3" selection-end-column="36" />
+        <state relative-caret-position="525">
+          <caret line="21" column="6" selection-start-line="21" selection-start-column="6" selection-end-line="21" selection-end-column="6" />
         </state>
       </provider>
     </entry>
