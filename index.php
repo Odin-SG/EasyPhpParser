@@ -18,7 +18,7 @@ require_once 'parser.php';
 
 $parser = new Parser($_POST['word']);
 
-while($element = $parser->searchByClass('div', 'organic__url-text')){
+while($element = $parser->search('div', 'class="organic__url-text"')){
     echo $element;
 }
 ?>
